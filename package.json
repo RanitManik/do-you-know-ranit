@@ -1,6 +1,6 @@
 {
   "name": "do-you-know-ranit",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "Do You Know Ranit Manik?",
   "homepage": "https://github.com/RanitManik",
   "type": "module",
@@ -20,5 +20,18 @@
     "gradient-string": "^2.0.0",
     "inquirer": "^8.2.0",
     "nanospinner": "^1.0.0"
-  }
+  },
+  "keywords": [
+    "Ranit",
+    "Ranit Manik",
+    "developer",
+    "programmer",
+    "JavaScript",
+    "node",
+    "CLI",
+    "chalk",
+    "inquirer",
+    "cli-game",
+    "cli-app"
+  ]
 }
