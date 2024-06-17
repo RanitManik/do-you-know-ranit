@@ -4,6 +4,8 @@ A fun and interactive CLI quiz game to test your knowledge about Ranit Manik. Th
 questions about Ranit's background, skills, and social media presence. Get all the questions right, or face the
 consequences!
 
+https://github.com/RanitManik/do-you-know-ranit/assets/138437760/258b00fb-f50e-4cad-913d-ed37b368af10
+
 ## Table of Contents
 
 - [Features](#features)
