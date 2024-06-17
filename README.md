@@ -1,168 +1,167 @@
-<div align="center">
-  <img height="80px" src="https://skillicons.dev/icons?i=md" alt="Markdown Icon">
-  <h1>README Template</h1>
-  <a href="https://github.com/RanitManik/README-Template/wiki"><strong>Explore the docs »</strong></a>
-  <br>
-  <br>
-  <a href="https://github.com/RanitManik/README-Template">View Demo</a>
-  ·
-  <a href=".github/ISSUE_TEMPLATE/bug_report.md">Report Bug</a>
-  ·
-  <a href=".github/ISSUE_TEMPLATE/feature_request.md">Request Feature</a>
-  <br/>
-  <br/>
+# Do You Know Ranit?
 
-![GitHub Created At](https://img.shields.io/github/created-at/RanitManik/README-Template)
-![GitHub License](https://img.shields.io/github/license/RanitManik/README-Template)
-![GitHub repo size](https://img.shields.io/github/repo-size/RanitManik/README-Template)
-![GitHub Discussions](https://img.shields.io/github/discussions/RanitManik/README-Template)
-![GitHub Release](https://img.shields.io/github/v/release/RanitManik/README-Template)
-
-</div>
-
-A well-crafted README template containing all the essential community standards to assist you in launching your projects
-successfully and ensuring they meet the expected quality levels. Read the **[Wiki Docs](https://github.com/RanitManik/README-Template/wiki)** to learn more about this project and its structure. Ask questions about this project in the **[Discussion](https://github.com/RanitManik/README-Template/discussions)**.
+A fun and interactive CLI quiz game to test your knowledge about Ranit Manik. This game challenges players with
+questions about Ranit's background, skills, and social media presence. Get all the questions right, or face the
+consequences!
 
 ## Table of Contents
 
-- [Overview](#overview)
-    - [Why This Template?](#why-this-template)
-    - [What to Change?](#what-to-change)
-    - [Technologies Used](#technologies-used)
-- [Getting Started](#getting-started)
-    - [Prerequisites](#prerequisites)
-    - [Installation](#installation)
-- [Usage](#usage)
+- [Features](#features)
+- [Installation](#installation)
+    - [Global Installation](#global-installation)
+    - [Using npx](#using-npx)
+- [How to Play](#how-to-play)
+- [Example](#example)
+- [Development](#development)
+- [Dependencies](#dependencies)
 - [Contributing](#contributing)
 - [License](#license)
 - [Contact](#contact)
-- [Acknowledgments](#acknowledgments)
+- [Acknowledgement](#acknowledgement)
 
-## Overview
+## Features
 
-![README-Template](https://github.com/RanitManik/README-Template/assets/138437760/a505a90d-912f-4f18-a604-94209bcda021)
+- Animated rainbow title using `chalk-animation`
+- Beautiful console messages with `chalk`
+- Smooth gradient text with `gradient-string`
+- Interactive questions using `inquirer`
+- Engaging spinner animations with `nanospinner`
+- ASCII art congratulations with `figlet`
 
+## Installation
 
-### Why This Template?
+### Global Installation
 
-Your time is valuable and should be focused on building amazing projects that solve problems and help others. This
-template is designed to streamline the process of creating a README so you can adhere to DRY (Don't Repeat Yourself)
-principles even in your documentation efforts. Here's why this template stands out:
-
-- **Efficiency**: Save time by using a pre-structured template.
-- **Focus**: Spend more time on developing your project rather than writing documentation from scratch.
-- **Versatility**: This template aims to be as versatile as possible to fit various projects.
-
-This template will evolve to better meet various needs. Feel free to suggest changes by forking this repo, creating a
-pull request, or opening an issue. Contributions are always welcome!
-
-> [!IMPORTANT]
-> For comprehensive insights into this project, we strongly recommend visiting **[our project's wiki page](https://github.com/RanitManik/README-Template/wiki)**.
-> The [home page](https://github.com/RanitManik/README-Template/wiki) provides an overview of the project, while the [Project Structure page](https://github.com/RanitManik/README-Template/wiki/Project-Structure) details the purpose and contents of each file and folder in the project structure.
-
-> [!Note]
-> This README provides detailed examples and information. For a clean template format, consider using the **[README_TEMPLATE.md](README_TEMPLATE.md)** file as your README. We recommend reviewing the guide on making changes in this README to ensure you cover all necessary aspects effectively.
-
-### What to Change?
-
-- **Project name** and **Project description**
-- **Project logo** and **Project Screenshot**
-- **Project overview:** Update the [overview](#overview)
-- **Project tech stack:** Update the [technologies used](#technologies-used) badges according to your project tech stack
-  from **[Markdown Badges](https://github.com/Ileriayo/markdown-badges)** if you want to change the badges. There you will
-  find various markdown badges for your personal developer branding, profile, and projects.
-- **Project badges:** Update the badges from **shields.io** at the top of the README by changing the profile name and repo
-  name.
-  If you want to add more badges like this, visit **[shields.io](https://shields.io/badges)**
-- **Installation steps:** Update the [installation instructions](#installation) in this template
-- **Usage instructions:** Update the [usage instructions](#usage) in this template
-- Contribution guidelines: Update the repo name in [contribution guidelines](#contributing) in this template and
-  in [CONTRIBUTING.md](.github/CONTRIBUTING.md)
-- **License information:** If you prefer a different license, update it here [LICENSE](LICENSE)
-- **Contact details:** Update the contact info in this template with your details in [contact section](#contact)
-
-### Technologies Used
-
-![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB)
-![TailwindCSS](https://img.shields.io/badge/tailwindcss-%2338B2AC.svg?style=for-the-badge&logo=tailwind-css&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
-![NodeJS](https://img.shields.io/badge/node.js-6DA55F?style=for-the-badge&logo=node.js&logoColor=white)
-![MongoDB](https://img.shields.io/badge/MongoDB-%234ea94b.svg?style=for-the-badge&logo=mongodb&logoColor=white)
-![GraphQL](https://img.shields.io/badge/-GraphQL-E10098?style=for-the-badge&logo=graphql&logoColor=white)
-
-## Getting Started
-
-To get a local copy up and running, follow these simple steps. 
-Provide instructions and examples for using the project. 
-This template does not rely on any external dependencies or services.
-
-### Prerequisites
-
-Ensure you have the following software installed:
-
-- `Node.js` and `npm`
-
-### Installation
-
-1. Clone the repo
-   ```sh
-   git clone https://github.com/RanitManik/README-Template.git
-   ```
-2. Navigate to the project directory
-   ```sh
-   cd README-Template
-   ```
-3. Install NPM packages
-   ```sh
-   npm install
-   ```
-
-## Usage
-
-- To run the app run the following command:
+To install and run the game globally, use:
 
 ```sh
-npm start
+npm install -g do-you-know-ranit
+do-you-know-ranit
 ```
+
+### Using npx
+
+To run the game without installing globally, use `npx`:
+
+```sh
+npx do-you-know-ranit
+```
+
+## How to Play
+
+1. The game will start with a welcome message and instructions.
+2. You will be asked to enter your name.
+3. Answer each question correctly to proceed to the next one.
+4. If you answer any question incorrectly, the game will end.
+5. Answer all questions correctly to win the game.
+
+## Example
+
+```sh
+$ do-you-know-ranit
+```
+
+Upon running the above command, you will see the animated title followed by a series of questions. Here's a sample
+interaction:
+
+```
+Do You Know RANIT?
+
+HOW TO PLAY
+I am a process on your computer.
+If you get any question wrong I will be killed
+So get all the questions right...
+
+What is your name? (Player)
+
+Where is Ranit currently pursuing his higher education?
+1) College of Engineering & Management, Kolaghat
+2) IIT Kharagpur
+3) NIT Durgapur
+4) Jadavpur University
+
+Nice work [Player]. That's a legit answer
+...
+Congrats , [Player] !
+You know Ranit well!
+```
+
+## Development
+
+To run the game locally without installing globally:
+
+1. Clone the repository:
+
+```sh
+git clone https://github.com/RanitManik/do-you-know-ranit.git
+```
+
+2. Navigate to the project directory and install dependencies:
+
+```sh
+cd do-you-know-ranit
+npm install
+```
+
+3. Run the game:
+
+```sh
+node index.js
+```
+
+## Dependencies
+
+- [chalk](https://www.npmjs.com/package/chalk): Terminal string styling.
+- [inquirer](https://www.npmjs.com/package/inquirer): Interactive command line prompts.
+- [gradient-string](https://www.npmjs.com/package/gradient-string): Beautiful gradient strings.
+- [chalk-animation](https://www.npmjs.com/package/chalk-animation): Animations for the terminal.
+- [figlet](https://www.npmjs.com/package/figlet): Create ASCII art from text.
+- [nanospinner](https://www.npmjs.com/package/nanospinner): Minimal and elegant terminal spinners.
 
 ## Contributing
 
-We welcome contributions from all developers and power users! To add new features or suggest improvements, follow these
-steps:
-
-1. Fork this repository to your own GitHub account.
-2. Clone the forked repository to your local machine.
-3. Create a new branch for your changes: `git checkout -b feature/add-new-feature`
-4. Make your changes to the `README.md` file or add new files as necessary.
-5. Commit your changes: `git commit -m "Add new feature for XYZ"`
-6. Push the changes to your GitHub fork: `git push origin feature/add-new-feature`
-7. Open a pull request from your forked repository to this original repository.
-
-Our community will review your contribution, provide feedback if needed, and merge it once everything looks good.
-<br/>
-To learn more about how to contribute, please refer to the **[Contribution Guidelines](.github/CONTRIBUTING.md)**.
+Feel free to submit issues or pull requests. For major changes, please open an issue first to discuss what you would
+like to change.
 
 ## License
 
-Distributed under the MIT License. See [`LICENSE.txt`](LICENSE) for more information.
+This project is licensed under the **[MIT License](LICENSE)**.
 
 ## Contact
 
-- **Email**: [ranitmanik.dev@gmail.com](mailto:ranitmanik.dev@gmail.com)
-- **LinkedIn**: [Ranit Manik](https://www.linkedin.com/in/ranit-manik/)
-- **GitHub**: [RanitManik](https://github.com/RanitManik)
+<table>
+  <tr>
+    <th></th>
+    <th>Social Media</th>
+    <th>Username</th>
+    <th>Link</th>
+  </tr>
+  <tr>
+    <td><img src="https://cdn4.iconfinder.com/data/icons/social-media-logos-6/512/112-gmail_email_mail-512.png" width="20" /></td>
+    <td>Email</td>
+    <td><code>ranitmanik.dev@gmail.com</code></td>
+    <td><a href="mailto:ranitmanik.dev@gmail.com" target="_blank">Email</a></td>
+  </tr>
+  <tr>
+    <td><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/LinkedIn_logo_initials.png/480px-LinkedIn_logo_initials.png" width="20" /></td>
+    <td>LinkedIn</td>
+    <td><code>Ranit Manik</code></td>
+    <td><a href="https://www.linkedin.com/in/ranit-manik/" target="_blank">LinkedIn</a></td>
+  </tr>
+  <tr>
+    <td><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Instagram_icon.png/600px-Instagram_icon.png" width="20" /></td>
+    <td>Instagram</td>
+    <td><code>ranit_manik_</code></td>
+    <td><a href="https://www.instagram.com/ranit_manik_/" target="_blank">Instagram</a></td>
+  </tr>
+  <tr>
+    <td><img src="https://upload.wikimedia.org/wikipedia/commons/6/6c/Facebook_Logo_2023.png" width="20" /></td>
+    <td>Facebook</td>
+    <td><code>RanitKumarManik</code></td>
+    <td><a href="https://www.facebook.com/RanitKumarManik/" target="_blank">Facebook</a></td>
+</tr>
+</table>
 
-_Feel free to reach out if you have questions or just want to chat about web adventures!_
+## Acknowledgement
 
-## Acknowledgments
-
-- [Best-README-Template](https://github.com/othneildrew/Best-README-Template)
-- [Markdown Badges](https://github.com/Ileriayo/markdown-badges)
-- [shields.io Badges](https://shields.io/)
-- [Skill Icons](https://github.com/tandpfun/skill-icons)
-
----
-
-<p align="center">
-   Thank you for using the <strong>README Template</strong>! Happy coding! 🚀
-</p>
+- Inspired by [fireship.io](https://www.youtube.com/@Fireship)'s video series.

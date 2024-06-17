@@ -1,0 +1,24 @@
+{
+  "name": "do-you-know-ranit",
+  "version": "0.0.4",
+  "description": "Do You Know Ranit Manik?",
+  "homepage": "https://github.com/RanitManik",
+  "type": "module",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/RanitManik/do-you-know-ranit"
+  },
+  "main": "index.js",
+  "scripts": {
+    "start": "node ."
+  },
+  "bin": "./index.js",
+  "dependencies": {
+    "chalk": "^4.1.2",
+    "chalk-animation": "^1.6.0",
+    "figlet": "^1.5.2",
+    "gradient-string": "^2.0.0",
+    "inquirer": "^8.2.0",
+    "nanospinner": "^1.0.0"
+  }
+}
