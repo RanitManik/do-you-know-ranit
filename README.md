@@ -164,4 +164,4 @@ This project is licensed under the **[MIT License](LICENSE)**.
 
 ## Acknowledgement
 
-- Inspired by [fireship.io](https://www.youtube.com/@Fireship)'s video series.
+Inspired by **[fireship.io](https://www.youtube.com/@Fireship)**.
