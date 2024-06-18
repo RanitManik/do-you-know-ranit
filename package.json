@@ -1,5 +1,5 @@
 {
-  "name": "@ranitmanik/do-you-know-ranit",
+  "name": "do-you-know-ranit",
   "version": "1.0.0",
   "description": "Do You Know Ranit Manik?",
   "homepage": "https://github.com/RanitManik",
@@ -15,7 +15,7 @@
   "bin": "./index.js",
   "dependencies": {
     "chalk": "^4.1.2",
-    "chalk-animation": "^2.0.3",
+    "chalk-animation": "^1.6.0",
     "figlet": "^1.5.2",
     "gradient-string": "^2.0.0",
     "inquirer": "^8.2.0",
@@ -33,8 +33,5 @@
     "inquirer",
     "cli-game",
     "cli-app"
-  ],
-  "publishConfig": {
-    "@ranitmanik:registry": "https://npm.pkg.github.com"
-  }
+  ]
 }
