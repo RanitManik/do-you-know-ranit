@@ -1,15 +1,17 @@
 # Do You Know Ranit?
 
 A fun and interactive CLI quiz game to test your knowledge about Ranit Manik. This game challenges players with
-questions about Ranit's background, skills, and social media presence. Get all the questions right, or face the
-consequences!
+questions about Ranit's background, skills, and social media presence. 
 
-## Table of Contents
+**Get all the questions right, or face the consequences!**
+
+<details>
+  <summary>Table of Contents</summary>
 
 - [Features](#features)
 - [Installation](#installation)
-    - [Global Installation](#global-installation)
-    - [Using npx](#using-npx)
+  - [Global Installation](#global-installation)
+  - [Using npx](#using-npx)
 - [How to Play](#how-to-play)
 - [Example](#example)
 - [Development](#development)
@@ -18,6 +20,8 @@ consequences!
 - [License](#license)
 - [Contact](#contact)
 - [Acknowledgement](#acknowledgement)
+
+</details>
 
 ## Features
 
